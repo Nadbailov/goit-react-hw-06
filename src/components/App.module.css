@@ -1,7 +1,14 @@
-.container {
-  width: 400px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #0d0d0d;
-  border-radius: 10px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
 }
